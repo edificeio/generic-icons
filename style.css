@@ -1,16 +1,16 @@
 @font-face {
-  font-family: 'ong-icons';
+  font-family: 'generic-icons';
   src:
-    url('fonts/ong-icons.ttf?1n451p') format('truetype'),
-    url('fonts/ong-icons.woff?1n451p') format('woff'),
-    url('fonts/ong-icons.svg?1n451p#ong-icons') format('svg');
+    url('fonts/generic-icons.ttf?hgzmw') format('truetype'),
+    url('fonts/generic-icons.woff?hgzmw') format('woff'),
+    url('fonts/generic-icons.svg?hgzmw#generic-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 i {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'ong-icons' !important;
+  font-family: 'generic-icons' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
