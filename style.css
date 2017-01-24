@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'generic-icons';
   src:
-    url('fonts/generic-icons.ttf?2mi9lu') format('truetype'),
-    url('fonts/generic-icons.woff?2mi9lu') format('woff'),
-    url('fonts/generic-icons.svg?2mi9lu#generic-icons') format('svg');
+    url('fonts/generic-icons.ttf?o2ethf') format('truetype'),
+    url('fonts/generic-icons.woff?o2ethf') format('woff'),
+    url('fonts/generic-icons.svg?o2ethf#generic-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -23,51 +23,6 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.hashtag:before {
-  content: "\e921";
-}
-.check-circle-o:before {
-  content: "\e915";
-}
-.check-circle:before {
-  content: "\e916";
-}
-.calendar-o:before {
-  content: "\e917";
-}
-.puzzle-piece:before {
-  content: "\e918";
-}
-.file-text-o:before {
-  content: "\e919";
-}
-.workspace:before {
-  content: "\e911";
-}
-.workspace-large:before {
-  content: "\e911";
-}
-.cahier-de-textes:before {
-  content: "\e910";
-}
-.cahier-de-texte-large:before {
-  content: "\e910";
-}
-.eye-slash:before {
-  content: "\e904";
-}
-.dots-three-horizontal:before {
-  content: "\e913";
-}
-.email:before {
-  content: "\e90a";
-}
-.archive:before {
-  content: "\e907";
-}
-.dots-three-vertical:before {
-  content: "\e912";
-}
 .chat:before {
   content: "\e914";
 }
@@ -785,6 +740,18 @@ i {
 .grid_on:before {
   content: "\e90c";
 }
+.dots-three-horizontal:before {
+  content: "\e913";
+}
+.email:before {
+  content: "\e90a";
+}
+.archive:before {
+  content: "\e907";
+}
+.dots-three-vertical:before {
+  content: "\e912";
+}
 .panda-filled:before {
   content: "\e91f";
 }
@@ -808,5 +775,44 @@ i {
 }
 .face:before {
   content: "\e906";
+}
+.star-empty:before {
+  content: "\e9d7";
+}
+.star-full:before {
+  content: "\e9d9";
+}
+.hashtag:before {
+  content: "\e921";
+}
+.check-circle-o:before {
+  content: "\e915";
+}
+.check-circle:before {
+  content: "\e916";
+}
+.calendar-o:before {
+  content: "\e917";
+}
+.puzzle-piece:before {
+  content: "\e918";
+}
+.file-text-o:before {
+  content: "\e919";
+}
+.workspace:before {
+  content: "\e911";
+}
+.workspace-large:before {
+  content: "\e911";
+}
+.cahier-de-textes:before {
+  content: "\e910";
+}
+.cahier-de-texte-large:before {
+  content: "\e910";
+}
+.eye-slash:before {
+  content: "\e904";
 }
 
