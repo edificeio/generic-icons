@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'generic-icons';
   src:
-    url('fonts/generic-icons.ttf?qzi19f') format('truetype'),
-    url('fonts/generic-icons.woff?qzi19f') format('woff'),
-    url('fonts/generic-icons.svg?qzi19f#generic-icons') format('svg');
+    url('fonts/generic-icons.ttf?6569nh') format('truetype'),
+    url('fonts/generic-icons.woff?6569nh') format('woff'),
+    url('fonts/generic-icons.svg?6569nh#generic-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -23,6 +23,9 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.competences:before {
+  content: "\e927";
+}
 .sort-asc:before {
   content: "\e924";
 }
@@ -121,6 +124,27 @@ i {
 }
 .add:before {
   content: "\e90b";
+}
+.nature_people:before {
+  content: "\e91c";
+}
+.group_add:before {
+  content: "\e91d";
+}
+.chat3:before {
+  content: "\e91e";
+}
+.person:before {
+  content: "\e905";
+}
+.warning:before {
+  content: "\e903";
+}
+.ccn:before {
+  content: "\e90f";
+}
+.hiboutheque:before {
+  content: "\e90e";
 }
 .new_releases:before {
   content: "\e91a";
