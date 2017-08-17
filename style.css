@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'generic-icons';
   src:
-    url('fonts/generic-icons.ttf?td4if5') format('truetype'),
-    url('fonts/generic-icons.woff?td4if5') format('woff'),
-    url('fonts/generic-icons.svg?td4if5#generic-icons') format('svg');
+    url('fonts/generic-icons.ttf?ocheg8') format('truetype'),
+    url('fonts/generic-icons.woff?ocheg8') format('woff'),
+    url('fonts/generic-icons.svg?ocheg8#generic-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -23,6 +23,9 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.bell-slash-o:before {
+  content: "\e92e";
+}
 .desktop:before {
   content: "\e92d";
 }
@@ -112,12 +115,6 @@ i {
 }
 .add:before {
   content: "\e90b";
-}
-.nature_people:before {
-  content: "\e91c";
-}
-.group_add:before {
-  content: "\e91d";
 }
 .new_releases:before {
   content: "\e91a";
@@ -829,30 +826,6 @@ i {
 }
 .dots-three-vertical:before {
   content: "\e912";
-}
-.stats-dots:before {
-  content: "\e909";
-}
-.library:before {
-  content: "\e908";
-}
-.sad:before {
-  content: "\e906";
-}
-.emoticon:before {
-  content: "\e906";
-}
-.smiley:before {
-  content: "\e906";
-}
-.face:before {
-  content: "\e906";
-}
-.star-empty:before {
-  content: "\e9d7";
-}
-.star-full:before {
-  content: "\e9d9";
 }
 .file-upload:before {
   content: "\e922";
