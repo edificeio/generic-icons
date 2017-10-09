@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'generic-icons';
   src:
-    url('fonts/generic-icons.ttf?r9pzlo') format('truetype'),
-    url('fonts/generic-icons.woff?r9pzlo') format('woff'),
-    url('fonts/generic-icons.svg?r9pzlo#generic-icons') format('svg');
+    url('fonts/generic-icons.ttf?xuqg6y') format('truetype'),
+    url('fonts/generic-icons.woff?xuqg6y') format('woff'),
+    url('fonts/generic-icons.svg?xuqg6y#generic-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -23,6 +23,114 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.droplet:before {
+  content: "\e92c";
+}
+.file-upload:before {
+  content: "\e922";
+}
+.file-interactive:before {
+  content: "\e923";
+}
+.panda-filled:before {
+  content: "\e91f";
+}
+.panda:before {
+  content: "\e920";
+}
+.stats-dots:before {
+  content: "\e909";
+}
+.library:before {
+  content: "\e908";
+}
+.sad:before {
+  content: "\e906";
+}
+.emoticon:before {
+  content: "\e906";
+}
+.smiley:before {
+  content: "\e906";
+}
+.face:before {
+  content: "\e906";
+}
+.star-empty:before {
+  content: "\e9d7";
+}
+.star-full:before {
+  content: "\e9d9";
+}
+.cloud-upload:before {
+  content: "\e9c3";
+}
+.crop:before {
+  content: "\ea57";
+}
+.repeat:before {
+  content: "\e92b";
+}
+.rotate-right:before {
+  content: "\e92b";
+}
+.desktop:before {
+  content: "\e92d";
+}
+.clock:before {
+  content: "\f017";
+}
+.phone:before {
+  content: "\f095";
+}
+.right-click:before {
+  content: "\e928";
+}
+.competences:before {
+  content: "\e927";
+}
+.sort-asc:before {
+  content: "\e924";
+}
+.sort-desc:before {
+  content: "\e925";
+}
+.sort:before {
+  content: "\e926";
+}
+.hashtag:before {
+  content: "\e921";
+}
+.check-circle-o:before {
+  content: "\e915";
+}
+.check-circle:before {
+  content: "\e916";
+}
+.calendar-o:before {
+  content: "\e917";
+}
+.puzzle-piece:before {
+  content: "\e918";
+}
+.file-text-o:before {
+  content: "\e919";
+}
+.workspace:before {
+  content: "\e911";
+}
+.workspace-large:before {
+  content: "\e911";
+}
+.cahier-de-textes:before {
+  content: "\e910";
+}
+.cahier-de-texte-large:before {
+  content: "\e910";
+}
+.eye-slash:before {
+  content: "\e904";
+}
 .Qwant_Logo:before {
   content: "\e92a";
 }
@@ -46,6 +154,51 @@ i {
 }
 .add:before {
   content: "\e90b";
+}
+.nature_people:before {
+  content: "\e91c";
+}
+.group_add:before {
+  content: "\e91d";
+}
+.chat3:before {
+  content: "\e91e";
+}
+.person:before {
+  content: "\e905";
+}
+.warning:before {
+  content: "\e903";
+}
+.ccn:before {
+  content: "\e90f";
+}
+.hiboutheque:before {
+  content: "\e90e";
+}
+.grades:before {
+  content: "\e614";
+}
+.timer-off:before {
+  content: "\e426";
+}
+.trending-up:before {
+  content: "\e8e5";
+}
+.logbook:before {
+  content: "\e902";
+}
+.nobody:before {
+  content: "\e901";
+}
+.slideshare:before {
+  content: "\e800";
+}
+.marquee:before {
+  content: "\e801";
+}
+.graduation-cap:before {
+  content: "\e802";
 }
 .photo_size_select_large:before {
   content: "\e929";
@@ -760,100 +913,4 @@ i {
 }
 .dots-three-vertical:before {
   content: "\e912";
-}
-.file-upload:before {
-  content: "\e922";
-}
-.file-interactive:before {
-  content: "\e923";
-}
-.panda-filled:before {
-  content: "\e91f";
-}
-.panda:before {
-  content: "\e920";
-}
-.stats-dots:before {
-  content: "\e909";
-}
-.library:before {
-  content: "\e908";
-}
-.sad:before {
-  content: "\e906";
-}
-.emoticon:before {
-  content: "\e906";
-}
-.smiley:before {
-  content: "\e906";
-}
-.face:before {
-  content: "\e906";
-}
-.star-empty:before {
-  content: "\e9d7";
-}
-.star-full:before {
-  content: "\e9d9";
-}
-.cloud-upload:before {
-  content: "\e9c3";
-}
-.desktop:before {
-  content: "\e92d";
-}
-.clock:before {
-  content: "\f017";
-}
-.phone:before {
-  content: "\f095";
-}
-.right-click:before {
-  content: "\e928";
-}
-.competences:before {
-  content: "\e927";
-}
-.sort-asc:before {
-  content: "\e924";
-}
-.sort-desc:before {
-  content: "\e925";
-}
-.sort:before {
-  content: "\e926";
-}
-.hashtag:before {
-  content: "\e921";
-}
-.check-circle-o:before {
-  content: "\e915";
-}
-.check-circle:before {
-  content: "\e916";
-}
-.calendar-o:before {
-  content: "\e917";
-}
-.puzzle-piece:before {
-  content: "\e918";
-}
-.file-text-o:before {
-  content: "\e919";
-}
-.workspace:before {
-  content: "\e911";
-}
-.workspace-large:before {
-  content: "\e911";
-}
-.cahier-de-textes:before {
-  content: "\e910";
-}
-.cahier-de-texte-large:before {
-  content: "\e910";
-}
-.eye-slash:before {
-  content: "\e904";
 }
