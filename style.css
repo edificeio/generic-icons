@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'generic-icons';
   src:
-    url('fonts/generic-icons.ttf?70ly3f') format('truetype'),
-    url('fonts/generic-icons.woff?70ly3f') format('woff'),
-    url('fonts/generic-icons.svg?70ly3f#generic-icons') format('svg');
+    url('fonts/generic-icons.ttf?tmwu5k') format('truetype'),
+    url('fonts/generic-icons.woff?tmwu5k') format('woff'),
+    url('fonts/generic-icons.svg?tmwu5k#generic-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -23,84 +23,8 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.blur .path1:before {
+.blur:before {
   content: "\e92e";
-  color: rgb(29, 29, 27);
-}
-.blur .path2:before {
-  content: "\e92f";
-  margin-left: -0.9521484375em;
-  color: rgb(29, 29, 27);
-}
-.blur .path3:before {
-  content: "\e930";
-  margin-left: -0.9521484375em;
-  color: rgb(29, 29, 27);
-}
-.blur .path4:before {
-  content: "\e931";
-  margin-left: -0.9521484375em;
-  color: rgb(29, 29, 27);
-}
-.blur .path5:before {
-  content: "\e932";
-  margin-left: -0.9521484375em;
-  color: rgb(29, 29, 27);
-}
-.blur .path6:before {
-  content: "\e933";
-  margin-left: -0.9521484375em;
-  color: rgb(29, 29, 27);
-}
-.blur .path7:before {
-  content: "\e934";
-  margin-left: -0.9521484375em;
-  color: rgb(29, 29, 27);
-}
-.blur .path8:before {
-  content: "\e935";
-  margin-left: -0.9521484375em;
-  color: rgb(29, 29, 27);
-}
-.blur .path9:before {
-  content: "\e936";
-  margin-left: -0.9521484375em;
-  color: rgb(29, 29, 27);
-}
-.blur .path10:before {
-  content: "\e937";
-  margin-left: -0.9521484375em;
-  color: rgb(29, 29, 27);
-}
-.blur .path11:before {
-  content: "\e938";
-  margin-left: -0.9521484375em;
-  color: rgb(29, 29, 27);
-}
-.blur .path12:before {
-  content: "\e939";
-  margin-left: -0.9521484375em;
-  color: rgb(29, 29, 27);
-}
-.blur .path13:before {
-  content: "\e93a";
-  margin-left: -0.9521484375em;
-  color: rgb(29, 29, 27);
-}
-.blur .path14:before {
-  content: "\e93b";
-  margin-left: -0.9521484375em;
-  color: rgb(29, 29, 27);
-}
-.blur .path15:before {
-  content: "\e93c";
-  margin-left: -0.9521484375em;
-  color: rgb(29, 29, 27);
-}
-.blur .path16:before {
-  content: "\e93d";
-  margin-left: -0.9521484375em;
-  color: rgb(0, 0, 0);
 }
 .droplet:before {
   content: "\e92c";
