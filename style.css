@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'generic-icons';
   src:
-    url('fonts/generic-icons.ttf?mnoq7z') format('truetype'),
-    url('fonts/generic-icons.woff?mnoq7z') format('woff'),
-    url('fonts/generic-icons.svg?mnoq7z#generic-icons') format('svg');
+    url('fonts/generic-icons.ttf?2e6za0') format('truetype'),
+    url('fonts/generic-icons.woff?2e6za0') format('woff'),
+    url('fonts/generic-icons.svg?2e6za0#generic-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -23,6 +23,54 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.pearltrees:before {
+  content: "\e933";
+}
+.droplet:before {
+  content: "\e92c";
+}
+.file-upload:before {
+  content: "\e922";
+}
+.file-interactive:before {
+  content: "\e923";
+}
+.panda-filled:before {
+  content: "\e91f";
+}
+.panda:before {
+  content: "\e920";
+}
+.stats-dots:before {
+  content: "\e909";
+}
+.library:before {
+  content: "\e908";
+}
+.sad:before {
+  content: "\e906";
+}
+.emoticon:before {
+  content: "\e906";
+}
+.smiley:before {
+  content: "\e906";
+}
+.face:before {
+  content: "\e906";
+}
+.star-empty:before {
+  content: "\e9d7";
+}
+.star-full:before {
+  content: "\e9d9";
+}
+.cloud-upload:before {
+  content: "\e9c3";
+}
+.crop:before {
+  content: "\ea57";
+}
 .search2:before {
   content: "\e930";
 }
@@ -772,51 +820,6 @@ i {
 }
 .dots-three-vertical:before {
   content: "\e912";
-}
-.droplet:before {
-  content: "\e92c";
-}
-.file-upload:before {
-  content: "\e922";
-}
-.file-interactive:before {
-  content: "\e923";
-}
-.panda-filled:before {
-  content: "\e91f";
-}
-.panda:before {
-  content: "\e920";
-}
-.stats-dots:before {
-  content: "\e909";
-}
-.library:before {
-  content: "\e908";
-}
-.sad:before {
-  content: "\e906";
-}
-.emoticon:before {
-  content: "\e906";
-}
-.smiley:before {
-  content: "\e906";
-}
-.face:before {
-  content: "\e906";
-}
-.star-empty:before {
-  content: "\e9d7";
-}
-.star-full:before {
-  content: "\e9d9";
-}
-.cloud-upload:before {
-  content: "\e9c3";
-}
-.crop:before {
-  content: "\ea57";
 }
 .parametrages:before {
   content: "\e92f";
