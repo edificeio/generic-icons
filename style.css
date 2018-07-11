@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'generic-icons';
   src:
-    url('fonts/generic-icons.ttf?eo25v3') format('truetype'),
-    url('fonts/generic-icons.woff?eo25v3') format('woff'),
-    url('fonts/generic-icons.svg?eo25v3#generic-icons') format('svg');
+    url('fonts/generic-icons.ttf?k9lhlj') format('truetype'),
+    url('fonts/generic-icons.woff?k9lhlj') format('woff'),
+    url('fonts/generic-icons.svg?k9lhlj#generic-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -23,6 +23,9 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.edumoov:before {
+  content: "\e939";
+}
 .dicodelazone:before {
   content: "\e938";
 }
