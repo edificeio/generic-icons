@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'generic-icons';
   src:
-    url('fonts/generic-icons.ttf?cw38te') format('truetype'),
-    url('fonts/generic-icons.woff?cw38te') format('woff'),
-    url('fonts/generic-icons.svg?cw38te#generic-icons') format('svg');
+    url('fonts/generic-icons.ttf?t53b4g') format('truetype'),
+    url('fonts/generic-icons.woff?t53b4g') format('woff'),
+    url('fonts/generic-icons.svg?t53b4g#generic-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -23,6 +23,18 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.images-solid:before {
+  content: "\e93e";
+}
+.th-list-solid:before {
+  content: "\e93f";
+}
+.th-solid:before {
+  content: "\e940";
+}
+.view-list:before {
+  content: "\e941";
+}
 .charte:before {
   content: "\e93b";
 }
