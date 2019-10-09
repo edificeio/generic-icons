@@ -1,11 +1,12 @@
 @font-face {
   font-family: 'generic-icons';
   src:
-    url('fonts/generic-icons.ttf?xjqd5o') format('truetype'),
-    url('fonts/generic-icons.woff?xjqd5o') format('woff'),
-    url('fonts/generic-icons.svg?xjqd5o#generic-icons') format('svg');
+    url('fonts/generic-icons.ttf?vcmyy0') format('truetype'),
+    url('fonts/generic-icons.woff?vcmyy0') format('woff'),
+    url('fonts/generic-icons.svg?vcmyy0#generic-icons') format('svg');
   font-weight: normal;
   font-style: normal;
+  font-display: block;
 }
 
 i {
@@ -23,6 +24,9 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.website1:before {
+  content: "\e94a";
+}
 .user-add:before {
   content: "\e937";
 }
