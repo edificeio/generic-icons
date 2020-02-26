@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'generic-icons';
   src:
-    url('fonts/generic-icons.ttf?9d28yk') format('truetype'),
-    url('fonts/generic-icons.woff?9d28yk') format('woff'),
-    url('fonts/generic-icons.svg?9d28yk#generic-icons') format('svg');
+    url('fonts/generic-icons.ttf?7or8e8') format('truetype'),
+    url('fonts/generic-icons.woff?7or8e8') format('woff'),
+    url('fonts/generic-icons.svg?7or8e8#generic-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -24,6 +24,9 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.stop:before {
+  content: "\e94e";
+}
 .website1:before {
   content: "\e94a";
 }
