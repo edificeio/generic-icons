@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'generic-icons';
   src:
-    url('fonts/generic-icons.ttf?piv0st') format('truetype'),
-    url('fonts/generic-icons.woff?piv0st') format('woff'),
-    url('fonts/generic-icons.svg?piv0st#generic-icons') format('svg');
+    url('fonts/generic-icons.ttf?rnzsl5') format('truetype'),
+    url('fonts/generic-icons.woff?rnzsl5') format('woff'),
+    url('fonts/generic-icons.svg?rnzsl5#generic-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -24,7 +24,28 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.camera:before {
+  content: "\e94f";
+}
+.dictaphone:before {
+  content: "\e950";
+}
+.play:before {
+  content: "\e951";
+}
+.pause:before {
+  content: "\e952";
+}
 .stop:before {
+  content: "\e953";
+}
+.redo:before {
+  content: "\e954";
+}
+.save:before {
+  content: "\e955";
+}
+.stop-small:before {
   content: "\e94e";
 }
 .website1:before {
@@ -387,7 +408,7 @@ i {
 .tools:before {
   content: "\e855";
 }
-.pause:before {
+.pause1:before {
   content: "\e856";
 }
 .file-pdf:before {
@@ -408,7 +429,7 @@ i {
 .hourglass:before {
   content: "\e85c";
 }
-.play:before {
+.play1:before {
   content: "\e85d";
 }
 .plus:before {
