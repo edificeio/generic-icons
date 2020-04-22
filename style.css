@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'generic-icons';
   src:
-    url('fonts/generic-icons.ttf?4i77pa') format('truetype'),
-    url('fonts/generic-icons.woff?4i77pa') format('woff'),
-    url('fonts/generic-icons.svg?4i77pa#generic-icons') format('svg');
+    url('fonts/generic-icons.ttf?3zbr1z') format('truetype'),
+    url('fonts/generic-icons.woff?3zbr1z') format('woff'),
+    url('fonts/generic-icons.svg?3zbr1z#generic-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -62,6 +62,9 @@ i {
 }
 .wallpaper-remove:before {
   content: "\e934";
+}
+.burger-icon:before {
+  content: "\e956";
 }
 .library-shared:before {
   content: "\e94c";
