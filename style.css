@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'generic-icons';
   src:
-    url('fonts/generic-icons.ttf?s32riu') format('truetype'),
-    url('fonts/generic-icons.woff?s32riu') format('woff'),
-    url('fonts/generic-icons.svg?s32riu#generic-icons') format('svg');
+    url('fonts/generic-icons.ttf?wvgi4s') format('truetype'),
+    url('fonts/generic-icons.woff?wvgi4s') format('woff'),
+    url('fonts/generic-icons.svg?wvgi4s#generic-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -12,7 +12,7 @@
 i {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'generic-icons' !important;
-  speak: none;
+  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -24,6 +24,60 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.burger-icon:before {
+  content: "\e956";
+}
+.library-shared:before {
+  content: "\e94c";
+}
+.dashboard:before {
+  content: "\e94b";
+}
+.school:before {
+  content: "\e949";
+}
+.moodle:before {
+  content: "\e948";
+}
+.fullscreen-off:before {
+  content: "\e946";
+}
+.fullscreen-on:before {
+  content: "\e947";
+}
+.file:before {
+  content: "\e945";
+}
+.settings-class:before {
+  content: "\e942";
+}
+.chat:before {
+  content: "\e914";
+}
+.comments:before {
+  content: "\e914";
+}
+.bubble:before {
+  content: "\e914";
+}
+.talk:before {
+  content: "\e914";
+}
+.file1:before {
+  content: "\e90b";
+}
+.new:before {
+  content: "\e90b";
+}
+.add:before {
+  content: "\e90b";
+}
+.interrogation:before {
+  content: "\e959";
+}
+.user-1d:before {
+  content: "\e95a";
+}
 .reccurent:before {
   content: "\e958";
 }
@@ -767,54 +821,6 @@ i {
 }
 .people:before {
   content: "\e7fb";
-}
-.burger-icon:before {
-  content: "\e956";
-}
-.library-shared:before {
-  content: "\e94c";
-}
-.dashboard:before {
-  content: "\e94b";
-}
-.school:before {
-  content: "\e949";
-}
-.moodle:before {
-  content: "\e948";
-}
-.fullscreen-off:before {
-  content: "\e946";
-}
-.fullscreen-on:before {
-  content: "\e947";
-}
-.file:before {
-  content: "\e945";
-}
-.settings-class:before {
-  content: "\e942";
-}
-.chat:before {
-  content: "\e914";
-}
-.comments:before {
-  content: "\e914";
-}
-.bubble:before {
-  content: "\e914";
-}
-.talk:before {
-  content: "\e914";
-}
-.file1:before {
-  content: "\e90b";
-}
-.new:before {
-  content: "\e90b";
-}
-.add:before {
-  content: "\e90b";
 }
 .dots-three-horizontal:before {
   content: "\e913";
