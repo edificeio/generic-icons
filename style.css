@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'generic-icons';
   src:
-    url('fonts/generic-icons.ttf?wvgi4s') format('truetype'),
-    url('fonts/generic-icons.woff?wvgi4s') format('woff'),
-    url('fonts/generic-icons.svg?wvgi4s#generic-icons') format('svg');
+    url('fonts/generic-icons.ttf?5wxoyq') format('truetype'),
+    url('fonts/generic-icons.woff?5wxoyq') format('woff'),
+    url('fonts/generic-icons.svg?5wxoyq#generic-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -24,6 +24,9 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.formulaire:before {
+  content: "\e95b";
+}
 .burger-icon:before {
   content: "\e956";
 }
