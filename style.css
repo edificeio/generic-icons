@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'generic-icons';
   src:
-    url('fonts/generic-icons.ttf?5wxoyq') format('truetype'),
-    url('fonts/generic-icons.woff?5wxoyq') format('woff'),
-    url('fonts/generic-icons.svg?5wxoyq#generic-icons') format('svg');
+    url('fonts/generic-icons.ttf?sevp9k') format('truetype'),
+    url('fonts/generic-icons.woff?sevp9k') format('woff'),
+    url('fonts/generic-icons.svg?sevp9k#generic-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -24,6 +24,59 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.forms:before {
+  content: "\e95c";
+  color: #4a4a4a;
+}
+.presence:before {
+  content: "\e95d";
+  color: #4a4a4a;
+}
+.icone-paths:before {
+  content: "\e94d";
+}
+.card-user:before {
+  content: "\e943";
+}
+.import-file:before {
+  content: "\e944";
+}
+.file-upload:before {
+  content: "\e922";
+}
+.file-interactive:before {
+  content: "\e923";
+}
+.panda-filled:before {
+  content: "\e91f";
+}
+.panda:before {
+  content: "\e920";
+}
+.stats-dots:before {
+  content: "\e909";
+}
+.library:before {
+  content: "\e908";
+}
+.sad:before {
+  content: "\e906";
+}
+.emoticon:before {
+  content: "\e906";
+}
+.smiley:before {
+  content: "\e906";
+}
+.face:before {
+  content: "\e906";
+}
+.star-empty:before {
+  content: "\e9d7";
+}
+.star-full:before {
+  content: "\e9d9";
+}
 .formulaire:before {
   content: "\e95b";
 }
@@ -836,51 +889,6 @@ i {
 }
 .dots-three-vertical:before {
   content: "\e912";
-}
-.icone-paths:before {
-  content: "\e94d";
-}
-.card-user:before {
-  content: "\e943";
-}
-.import-file:before {
-  content: "\e944";
-}
-.file-upload:before {
-  content: "\e922";
-}
-.file-interactive:before {
-  content: "\e923";
-}
-.panda-filled:before {
-  content: "\e91f";
-}
-.panda:before {
-  content: "\e920";
-}
-.stats-dots:before {
-  content: "\e909";
-}
-.library:before {
-  content: "\e908";
-}
-.sad:before {
-  content: "\e906";
-}
-.emoticon:before {
-  content: "\e906";
-}
-.smiley:before {
-  content: "\e906";
-}
-.face:before {
-  content: "\e906";
-}
-.star-empty:before {
-  content: "\e9d7";
-}
-.star-full:before {
-  content: "\e9d9";
 }
 .images-solid:before {
   content: "\e93e";
