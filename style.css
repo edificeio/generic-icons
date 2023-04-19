@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'generic-icons';
   src:
-    url('fonts/generic-icons.ttf?hkiceu') format('truetype'),
-    url('fonts/generic-icons.woff?hkiceu') format('woff'),
-    url('fonts/generic-icons.svg?hkiceu#generic-icons') format('svg');
+    url('fonts/generic-icons.ttf?1xov5w') format('truetype'),
+    url('fonts/generic-icons.woff?1xov5w') format('woff'),
+    url('fonts/generic-icons.svg?1xov5w#generic-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -24,6 +24,10 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.magneto:before {
+  content: "\e961";
+  color: #4a4a4a;
+}
 .minibadge:before {
   content: "\e960";
   color: #4a4a4a;
