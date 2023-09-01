@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'generic-icons';
   src:
-    url('fonts/generic-icons.ttf?mru1ba') format('truetype'),
-    url('fonts/generic-icons.woff?mru1ba') format('woff'),
-    url('fonts/generic-icons.svg?mru1ba#generic-icons') format('svg');
+    url('fonts/generic-icons.ttf?6i0oqh') format('truetype'),
+    url('fonts/generic-icons.woff?6i0oqh') format('woff'),
+    url('fonts/generic-icons.svg?6i0oqh#generic-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -24,6 +24,18 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.edt:before {
+  content: "\e964";
+  color: #4a4a4a;
+}
+.diary:before {
+  content: "\e965";
+  color: #4a4a4a;
+}
+.agenda:before {
+  content: "\e966";
+  color: #4a4a4a;
+}
 .lool:before {
   content: "\e962";
   color: #4a4a4a;
@@ -994,6 +1006,7 @@ i {
 }
 .competences:before {
   content: "\e927";
+  color: #4a4a4a;
 }
 .sort-asc:before {
   content: "\e924";
