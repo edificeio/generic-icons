@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'generic-icons';
   src:
-    url('fonts/generic-icons.ttf?u79mue') format('truetype'),
-    url('fonts/generic-icons.woff?u79mue') format('woff'),
-    url('fonts/generic-icons.svg?u79mue#generic-icons') format('svg');
+    url('fonts/generic-icons.ttf?s7hwkf') format('truetype'),
+    url('fonts/generic-icons.woff?s7hwkf') format('woff'),
+    url('fonts/generic-icons.svg?s7hwkf#generic-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -24,6 +24,10 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.tempsEcran:before {
+  content: "\e96e";
+  color: #ecbe30;
+}
 .votil:before {
   content: "\e96d";
   color: #ecbe30;
